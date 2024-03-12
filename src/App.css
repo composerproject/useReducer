@@ -1,3 +1,56 @@
+
+
+.btn {
+  background-color: rgb(187, 223, 255);
+  /* border: rgb(0, 130, 243) 1px solid; */
+  box-shadow: 1px 2px 3px rgb(0, 130, 243);
+  transition: all 0.2;
+}
+
+.btn:hover {
+  border: rgb(0, 130, 243) 1px solid;
+  /* box-shadow: 1px 2px 3px rgb(0, 130, 243); */
+}
+
+.btn:active {
+  background-color: rgb(145, 203, 254);
+  transform: translateY(2px);
+}
+.op-btn {
+  background-color:rgb(255, 185, 255);
+  /* border: rgb(0, 130, 243) 1px solid; */
+  box-shadow: 1px 2px 3px purple;
+  transition: all 0.2;
+}
+
+.op-btn:hover {
+  border: purple 1px solid;
+  /* box-shadow: 1px 2px 3px rgb(0, 130, 243); */
+}
+
+.op-btn:active {
+  background-color: rgb(249, 148, 249);
+  transform: translateY(2px);
+}
+
+
+.equal-btn {
+  background-color: rgb(208, 255, 208);
+  /* border: rgb(0, 130, 243) 1px solid; */
+  box-shadow: 1px 2px 3px green;
+  transition: all 0.2;
+}
+
+.equal-btn:hover {
+  border: green 1px solid;
+  /* box-shadow: 1px 2px 3px rgb(0, 130, 243); */
+}
+
+.equal-btn:active {
+  background-color: rgb(150, 255, 150);
+  transform: translateY(2px);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
